@@ -18,7 +18,7 @@ conan install . --output-folder=build --build=missing
 
 echo "Build with ninja"
 pushd build
-cmake -GNinja  ..
+cmake -DCMAKE_MODULE_PATH="$(pwd)" -DCMAKE_BUILD_TYPE=Release -GNinja  ..
 ninja
 
 result=$?

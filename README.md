@@ -11,6 +11,14 @@ This is a repository template to build my personal projects in `C++` using:
 
 ___
 
+## Try with Gitpod
+
+Click the button below to start a new development environment:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/thiagoms15/build-template)
+
+___
+
 ## :mage_man: 1. How to build
 
 ### CMake and ninja
