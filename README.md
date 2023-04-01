@@ -7,6 +7,7 @@ This is a repository template to build my personal projects in `C++` using:
 - CMake;
 - Ninja;
 - GTest
+- Bazel
 
 ___
 
@@ -18,7 +19,18 @@ ___
 ./build.sh
 ```
 
+### Bazel
+- run the command:
+```
+$ bazel --output_base=./build  build //tests:my-template-tests
+```
+
 ___
 
-## :page_with_curl: 2. License
+## :zombie: 2. TODO :rotating_light:
+- Add package management using Bazel, similar to Conan (e.g. zlib).
+
+___
+
+## :page_with_curl: 3. License
 This project is under MIT license. Take a look in [LICENSE](LICENSE) for more details.
